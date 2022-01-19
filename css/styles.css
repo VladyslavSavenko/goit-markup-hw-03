@@ -1,7 +1,24 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+p, h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+button{
+    cursor: pointer;
+}
 /*----heder-----*/
+.container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: 2px solid red;
+}
 .logo{
     font-family: "Raleway", sans-serif;
     font-size: 26px;
@@ -15,7 +32,7 @@ body{
 a {
     text-decoration: none;
     color: #000;
-}  
+} 
 
 .header-item{
     font-weight: 500;
@@ -56,6 +73,8 @@ a {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
+    margin-bottom: 30px;
+    padding-top: 200px;
 }
 .title-btn{
     font-family: "Roboto", sans-serif;
@@ -68,6 +87,7 @@ a {
     letter-spacing: 0.06em;
     background: #2196F3;
     color: #FFFFFF;
+    margin: 0 auto;
 }
 .title{
     width: 1600px;
@@ -76,6 +96,7 @@ a {
     top: 89px;
     background: #2F303A;
     text-align: center;
+    margin: 0 auto;
 }
 /*------about-----*/
 .about-item{
@@ -87,6 +108,7 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
+    margin-bottom: 10px;
 }
 .about-text{
     font-size: 14px;
@@ -97,6 +119,7 @@ a {
 /*------work-----*/
 .work-list{
     list-style: none;
+    display: flex;
 }
 .work-title{
     font-size: 36px;
@@ -138,6 +161,7 @@ a {
     left: 0px;
     top: 2097px;
     background: #2F303A;
+    margin: 0 auto;
 }
 .footer-logo{
     font-family: "Raleway", sans-serif;
