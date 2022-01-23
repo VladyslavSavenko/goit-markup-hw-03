@@ -17,7 +17,7 @@ button{
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    outline: 2px solid red;
+    
 }
 .logo{
     font-family: "Raleway", sans-serif;
@@ -25,6 +25,7 @@ button{
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #000000;
+    margin-right: 93px;
 }
 .logo-accent{
     color: #2196F3;
@@ -33,7 +34,27 @@ a {
     text-decoration: none;
     color: #000;
 } 
-
+.header{
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+}
+.header-list{
+    list-style: none;
+    display: flex;
+    width: 294px;
+    height: 16px;
+    left: 453px;
+    top: 32px;
+    margin-right: 331px;
+}
+.header-contact{
+    display: flex;
+    margin-left: auto;
+}
 .header-item{
     font-weight: 500;
     font-size: 14px;
@@ -45,17 +66,31 @@ a {
     top: 32px;
     color: #212121;
     list-style: none;
+    margin-right: 50px;
 }
 .header-item :hover, 
 .header-item :focus{
     color:  #2196F3;
 } 
+.mail{
+    width: 137px;
+    height: 17px;
+    left: 1078px;
+    top: 32px;
+    margin-right: 48px;
+}
 .header-link-mail{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color:  #757575;
+}
+.tel{
+    width: 122px;
+    height: 16px;
+    left: 1263px;
+    top: 32px;
 }
 .header-link-tel{
     font-weight: 500;
@@ -74,20 +109,21 @@ a {
     text-transform: uppercase;
     color: #FFFFFF;
     margin-bottom: 30px;
-    padding-top: 200px;
 }
 .title-btn{
     font-family: "Roboto", sans-serif;
     font-weight: bold;
     font-size: 16px;
     line-height: 1.88;
-    display: flex;
-    align-items: center;
-    text-align: center;
+    text-transform: uppercase;
     letter-spacing: 0.06em;
     background: #2196F3;
     color: #FFFFFF;
     margin: 0 auto;
+    width: 200px;
+    height: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 .title{
     width: 1600px;
@@ -97,10 +133,23 @@ a {
     background: #2F303A;
     text-align: center;
     margin: 0 auto;
+    padding-top: 200px;
+    padding-bottom: 200px
 }
 /*------about-----*/
+.about{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.about-list{
+    display: flex;
+    margin-left: 30px;
+}
 .about-item{
     list-style: none;
+}
+.about-item + .about-item{
+    margin-left: 30px;
 }
 .about-title{
     font-size: 14px;
@@ -109,7 +158,7 @@ a {
     text-transform: uppercase;
     color: #212121;
     margin-bottom: 10px;
-}
+}    
 .about-text{
     font-size: 14px;
     line-height: 1.71;
@@ -117,9 +166,16 @@ a {
     color: #757575;
 }
 /*------work-----*/
+.work{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .work-list{
     list-style: none;
     display: flex;
+}
+.work-item + .work-item{
+    margin-left: 30px;
 }
 .work-title{
     font-size: 36px;
@@ -127,17 +183,36 @@ a {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    margin-bottom: 50px;
 }
+
 /*------hero-----*/
+.hero{
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background: #F5F4FA;
+}
 .hero-list{
     list-style: none;
+    display: flex;    
 }
+.hero-item + .hero-item{
+    margin-left: 30px;
+}    
 .hero-title{
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    margin-bottom: 50px;
+}
+.hero-img{
+    margin-bottom: 30px;
+    width: 270px;
+    height: 260px;
+    left: 215px;
+    top: 1635px;
 }
 .hero-name{
     font-weight: 500;
@@ -146,6 +221,7 @@ a {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    margin-bottom: 10px;
 }
 .hero-text{
     font-size: 16px;
@@ -153,6 +229,7 @@ a {
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
+    margin-bottom: 30px;
 }
 /*------footer-----*/
 .footer{
@@ -162,13 +239,15 @@ a {
     top: 2097px;
     background: #2F303A;
     margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .footer-logo{
     font-family: "Raleway", sans-serif;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    
+    margin-bottom: 20px;
 }
 .footer-logo-accent{
     color: #2196F3;
@@ -189,6 +268,7 @@ a {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+    margin-bottom: 9px;
 }
 .footer-link-mail{
     font-family: 'Roboto', sans-serif;
@@ -198,6 +278,7 @@ a {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 9px;
 }
 .footer-link-tel{
     font-family: 'Roboto', sans-serif;
@@ -207,12 +288,25 @@ a {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 60px;
 }
 /*-----portfolio control-----*/
-.control-item{
-    list-style: none;
+.gallery{
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
-.control-list-btn{
+.control-item{
+    width: calc(100% /5 -8px);
+    margin-right: 8px;
+}
+
+.control-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.control-item-btn{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -221,22 +315,32 @@ a {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    background: #F5F4FA;
+    border-radius: 4px;
 }
-.control-list-btn:hover,
-.control-list-btn:focus{
+.control-item-btn:hover,
+.control-item-btn:focus{
     background: #2196F3;
 }
-.gallery-item{
-    list-style: none;
+.gallery-img{
+    margin-bottom: 26px;
+    width: 370px;
+    height: 294px;
 }
 .gallery-list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+}
+.gallery-item{
     width: 370px;
     height: 404px;
-    left: 215px;
-    top: 262px;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
+    flex-basis: calc(100% / 9 -30px);
+    margin-left: 30px;
 }
 .gallery-title{
     font-family: 'Roboto', sans-serif;
@@ -255,4 +359,5 @@ a {
     line-height: 30px;
     letter-spacing: 0.03em;
     color: #757575;
+    margin-bottom: 20px;
 }
