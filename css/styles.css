@@ -212,12 +212,8 @@ a {
     margin-bottom: 50px;
 }
 .hero-img{
-    margin-bottom: 30px;
     width: 270px;
-    height: 260px;
-    left: 215px;
-    top: 1635px;
-}
+}    
 .hero-name{
     font-weight: 500;
     font-size: 16px;
@@ -237,9 +233,6 @@ a {
 }
 /*------footer-----*/
 .footer{
-    height: 252px;
-    left: 0px;
-    top: 2097px;
     background: #2F303A;
     margin: 0 auto;
     padding-top: 60px;
@@ -334,6 +327,8 @@ a {
 }
 .gallery-container{
     padding: 20px 24px 20px 24px;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
 }
 .gallery-list{
     list-style: none;
@@ -342,12 +337,8 @@ a {
     margin-left: -30px;
 }
 .gallery-item{
-    width: 370px;
-    height: 404px;
     background: #FFFFFF;
-    border: 1px solid #EEEEEE;
-    box-sizing: border-box;
-    flex-basis: calc(100% / 9 -30px);
+    flex-basis: calc(100% / 3 - 30px);
     margin-left: 30px;
     margin-bottom: 30px;
 
@@ -369,5 +360,4 @@ a {
     line-height: 30px;
     letter-spacing: 0.03em;
     color: #757575;
-    margin-bottom: 20px;
 }
